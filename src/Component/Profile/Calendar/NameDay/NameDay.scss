@@ -1,0 +1,12 @@
+.GridWrapper {
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	grid-gap: 1px;
+    margin-left:10px;
+    text-align:center
+}
+.CellWrapper {
+	min-height: 40px;
+	min-width: 40px;
+	color: #DDDDDD;
+}

@@ -1,0 +1,30 @@
+.CellWrapper {
+	color: #DDDDDD;
+	&:hover {
+		background: rgb(226, 218, 209);
+		color: black;
+	}
+}
+.GridWrapper {
+	display: grid;
+	grid-template-columns: repeat(7, 4fr);
+	grid-template-rows: repeat(6, 4fr);
+	grid-gap: 1px;
+}
+.DayWrapper {
+	height: 31px;
+	width: 31px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 2px;
+}
+.CurrentDay {
+	height: 100%;
+	width: 100%;
+	background: #FDD000;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,30 @@
+.DivWrapper {
+	display: flex;
+	justify-content: space-between;
+	color: #DCDDDD;
+	padding: 16px;
+}
+.TextWrapper {
+	font-size: 32px;
+}
+.TitleWrapper {
+	font-size: 32px;
+	font-weight: bold;
+	margin-right: 8px;
+}
+.ButtonsWrapper {
+	display: flex;
+	align-items: center;
+}
+.ButtonWrapper {
+	border: unset;
+	background-color: #272829;
+	height: 20px;
+	margin-right: 2px;
+	border-radius: 4px;
+	color: #E6E6E6;
+	outline: unset;
+	cursor: pointer;
+	margin: 20px;
+	font-size: 18px;
+}
